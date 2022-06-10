@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+body{
+    margin: 0;
+    background-color: rgba(50, 50, 50, 1);
+}
+
+/* nav bar starts here */
+nav{
+    margin: 0;
+    font-family: 'Lora', serif;
+    font-weight: 500;
+    /* background-image: url(images/bg-header.png); */
+    background-color: white;
+    background-position: bottom;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav>img{
+    margin: 1em 0 2em 5em;
+    height: 6em;
+}
+nav>ul{
+    margin-right: 5em;
+    display: flex;
+    list-style: none;
+}
+nav>ul>li{
+    margin-right: 1em;
+}
+nav>ul a{
+    padding: 0.7em 1.5em;
+    background-color: rgba(50, 50, 50, 0.9);
+    color: white;
+    text-decoration: none;
+    border-radius: 0.8em;
+}
+nav>ul a:hover{
+    background-color: rgba(80, 80, 80, 0.9);
+}
+/* nav bar ends here */
+
+main{
+    text-align: center;
+    /* background-image: url(images/bg-header.png); */
+}
+main h1{
+    margin: 2.55em 3.4em 1em;
+    color: rgba(255, 255, 255, 0.8);
+}
+main .grid-parent{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-rows: repeat(3,200px);
+    gap: 1em;
+    justify-content: center;
+    margin-bottom: 5em;
+}
+.grid-parent .grid-element{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+.g1{
+    background-image: url(images/galery1.jpeg);  
+}
+.g2{
+    background-image: url(images/galery2.jpg);  
+}
+.g3{
+    background-image: url(images/galery3.jpeg);  
+}
+.g4{
+    background-image: url(images/galery4.jpeg);  
+}
+.g5{
+    background-image: url(images/galery5.jpeg);  
+}
+.g6{
+    background-image: url(images/galery6.jpeg);  
+}
+.g7{
+    background-image: url(images/galery7.jpeg);  
+}
+.g8{
+    background-image: url(images/galery8.jpeg);  
+}
+.g9{
+    background-image: url(images/galery9.jpeg);  
+}
+.g10{
+    background-image: url(images/galery10.jpeg);  
+}
+.g11{
+    background-image: url(images/galery11.jpeg);  
+}
+.g12{
+    background-image: url(images/galery12.jpeg);  
+}
+
+.f1{
+    background-image: url(images/food1.jpeg);  
+}
+.f2{
+    background-image: url(images/food2.jpeg);  
+}
+.f3{
+    background-image: url(images/food3.jpeg);  
+}
+.f4{
+    background-image: url(images/food4.jpeg);  
+}
+.f5{
+    background-image: url(images/food5.jpeg);  
+}
+.f6{
+    background-image: url(images/food6.jpeg);  
+}
+.f7{
+    background-image: url(images/food7.jpeg);  
+}
+.f8{
+    background-image: url(images/food8.jpeg);  
+}
+.f9{
+    background-image: url(images/food9.jpeg);  
+}
+.f10{
+    background-image: url(images/food10.jpeg);  
+}
+.f11{
+    background-image: url(images/food11.jpeg);  
+}
+.f12{
+    background-image: url(images/food12.jpeg);  
+}
+
+
+/* footer  start*/
+footer{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+footer div p{
+    font-size: 0.8em;
+    line-height: 0.8;
+}
+footer div:first-child{
+    margin-left: 5em;
+}
+footer div:last-child{
+    text-align: center;
+    margin-right: 5em;
+}
+footer img{
+    height: 3em;
+    margin-right: 1em;
+}
+
+
+/* footer end */

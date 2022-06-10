@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+body{
+    margin: 0;
+    background-color: rgba(50, 50, 50, 1);
+}
+
+/* nav bar starts here */
+nav{
+    margin: 0;
+    font-family: 'Lora', serif;
+    font-weight: 500;
+    /* background-image: url(images/bg-header.png); */
+    background-color: white;
+    background-position: bottom;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav>img{
+    margin: 1em 0 2em 5em;
+    height: 6em;
+}
+nav>ul{
+    margin-right: 5em;
+    display: flex;
+    list-style: none;
+}
+nav>ul>li{
+    margin-right: 1em;
+}
+nav>ul a{
+    padding: 0.7em 1.5em;
+    background-color: rgba(50, 50, 50, 0.9);
+    color: white;
+    text-decoration: none;
+    border-radius: 0.8em;
+}
+nav>ul a:hover{
+    background-color: rgba(80, 80, 80, 0.9);
+}
+/* nav bar ends here */
+main{
+    background-color: white;
+    /* border-radius: 1em;
+    overflow: hidden; */
+    margin: 5em 2em;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 31.75em;
+    align-items: center;
+}
+main .img{
+    background-image: url(images/puze-meni.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+main div{
+    text-align: center;
+}
+main div a{
+    border-radius: 0.5em;
+    background-color: rgba(50, 50, 50, 0.9);
+    text-decoration: none;
+    color: white;
+    padding: 0.8em 2em;
+}
+main div a:hover{
+    background-color: rgba(80, 80, 80, 0.9);
+}
+footer{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+footer div p{
+    font-size: 0.8em;
+    line-height: 0.8;
+}
+footer div:first-child{
+    margin-left: 5em;
+}
+footer div:last-child{
+    text-align: center;
+    margin-right: 5em;
+}
+footer img{
+    height: 3em;
+    margin-right: 1em;
+}
