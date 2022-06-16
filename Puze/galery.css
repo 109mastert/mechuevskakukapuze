@@ -11,7 +11,7 @@ nav{
     font-family: 'Lora', serif;
     font-weight: 500;
     /* background-image: url(images/bg-header.png); */
-    background-color: white;
+    background-color: rgba(245, 245, 245, 1);
     background-position: bottom;
     display: flex;
     justify-content: space-between;
@@ -42,12 +42,15 @@ nav>ul a:hover{
 /* nav bar ends here */
 
 main{
+    margin: 3em 0;
+    padding: 2em 0;
     text-align: center;
+    background-color: rgba(245, 245, 245, 1);
     /* background-image: url(images/bg-header.png); */
 }
 main h1{
-    margin: 2.55em 3.4em 1em;
     color: rgba(255, 255, 255, 0.8);
+    color: #20232E;
 }
 main .grid-parent{
     display: grid;
@@ -139,7 +142,7 @@ main .grid-parent{
 
 /* footer  start*/
 footer{
-    background-color: white;
+    background-color: rgba(245, 245, 245, 1);
     display: flex;
     justify-content: space-between;
     align-items: flex-end;

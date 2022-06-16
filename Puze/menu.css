@@ -10,8 +10,7 @@ nav{
     margin: 0;
     font-family: 'Lora', serif;
     font-weight: 500;
-    /* background-image: url(images/bg-header.png); */
-    background-color: white;
+    background-color: rgb(245,245,245);
     background-position: bottom;
     display: flex;
     justify-content: space-between;
@@ -41,7 +40,7 @@ nav>ul a:hover{
 }
 /* nav bar ends here */
 main{
-    background-color: white;
+    background-color: rgb(245,245,245);
     /* border-radius: 1em;
     overflow: hidden; */
     margin: 5em 2em;
@@ -69,8 +68,14 @@ main div a{
 main div a:hover{
     background-color: rgba(80, 80, 80, 0.9);
 }
+@media screen and (min-width: 125em){
+    main{
+        width: 120em;
+        margin: 5em auto;
+    }
+}
 footer{
-    background-color: white;
+    background-color: rgb(245,245,245);
     display: flex;
     justify-content: space-between;
     align-items: flex-end;

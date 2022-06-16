@@ -10,8 +10,7 @@ nav{
     margin: 0;
     font-family: 'Lora', serif;
     font-weight: 500;
-    /* background-image: url(images/bg-header.png); */
-    background-color: white;
+    background-color: rgb(245,245,245);
     background-position: bottom;
     display: flex;
     justify-content: space-between;
@@ -42,10 +41,10 @@ nav>ul a:hover{
 /* nav bar ends here */
 
 main{
-    /* background-image: url(images/bg-header.png); */
-    /* background-size: cover; */
+    display: grid;
+    justify-content: center;
     padding: 2em 5em;
-    background-color: white;
+    background-color: rgb(245,245,245);
     margin: 5em 0;
 }
 main div{
@@ -61,7 +60,7 @@ main .adress{
 }
 /* footer  start*/
 footer{
-    background-color: white;
+    background-color: rgb(245,245,245);
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
